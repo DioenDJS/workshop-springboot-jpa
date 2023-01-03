@@ -29,11 +29,6 @@ Projeto . Desenvolver...
 - Clone o repositório `https://github.com/DioenDJS/workshop-springboot-jpa.git`.
 <!-- - Ao final a aplicação estará disponível em `http://localhost:3000`. -->
 
-## Methods HTTP no Postman:
-
-### Create
-![image]()
-
 
 ## Dependências do Projetos no arquivo pom.xml :card_index_dividers:
 ```
@@ -48,3 +43,13 @@ Projeto . Desenvolver...
     <scope>runtime</scope>
 </dependency>
 ```
+
+## Methods HTTP no Insomnia:
+
+#### Listagem de usuários
+![image](https://user-images.githubusercontent.com/76778401/210287244-c557a85c-96cd-4c33-b1ba-d577f3d22ec7.png)
+
+#### Listagem de usuários por Id
+![image](https://user-images.githubusercontent.com/76778401/210287227-2a07b6a1-b929-4e04-9d8c-176417828b9c.png)
+
+
