@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Order implements Serializable{
@@ -19,6 +21,8 @@ public class Order implements Serializable{
 	private Long id;
 	private Instant moment;
 	
+	@ManyToOne
+	@JoinColumn(name = "client_id")
 	private User client;
 
 	public Order(Long id, Instant moment, User client) {
