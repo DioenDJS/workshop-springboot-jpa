@@ -46,10 +46,20 @@ Projeto . Desenvolver...
 
 ## Methods HTTP no Insomnia:
 
+###User
+
 #### Listagem de usuários
 ![image](https://user-images.githubusercontent.com/76778401/210287244-c557a85c-96cd-4c33-b1ba-d577f3d22ec7.png)
 
 #### Listagem de usuários por Id
 ![image](https://user-images.githubusercontent.com/76778401/210287227-2a07b6a1-b929-4e04-9d8c-176417828b9c.png)
 
+
+### Order
+
+#### Listagem de Order
+![image](https://user-images.githubusercontent.com/76778401/210352520-eb1f31c9-0033-436a-b4ed-3af0a5abe0d0.png)
+
+#### Listagem de Order por Id
+![image](https://user-images.githubusercontent.com/76778401/210352470-0c19e558-2c71-4e77-9d52-e086dda049fe.png)
 
