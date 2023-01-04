@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://img.shields.io/static/v1?label=DioenD&message=Java&color=d2cca1&labelColor=757780" alt="DioenD">
     <img src="https://img.shields.io/static/v1?label=Udemy &message=java&color=dfdfdf&labelColor=41356b" alt="Udemy">
-    <img alt="GitHub repo size" src="https://github.com/DioenDJS/workshop-springboot-jpa" >
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DioenDJS/workshop-springboot-jpa" >
 </p>
 
 ## Tecnologias Utilizadas no projeto :construction:
