@@ -1,5 +1,8 @@
 package com.dioendweb.dioendweb.entities;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Product {
 
 	private Long id;
@@ -7,4 +10,7 @@ public class Product {
 	private String description;
 	private Double price;
 	private String imgUrl;
+	
+	private Set<Category> categories = new HashSet<>();
+	
 }

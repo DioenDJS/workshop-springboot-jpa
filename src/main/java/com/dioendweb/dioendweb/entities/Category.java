@@ -1,7 +1,9 @@
 package com.dioendweb.dioendweb.entities;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +22,7 @@ public class Category implements Serializable{
 	private Long id;
 	private String name;
 	
+	private Set<Product> products = new HashSet<>();
 	public Category() {}
 	
 	public Category(Long id, String name) {
@@ -44,6 +47,9 @@ public class Category implements Serializable{
 		this.name = name;
 	}
 
+	public Set<Product> getProducts(){
+		return products;
+	}
 	@Override
 	public int hashCode() {
 		return Objects.hash(id, name);
