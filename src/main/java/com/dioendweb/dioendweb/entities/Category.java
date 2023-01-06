@@ -1,5 +1,6 @@
 package com.dioendweb.dioendweb.entities;
 
+
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Objects;
@@ -10,6 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 
 @Entity
 @Table(name = "tb_category")
@@ -23,6 +25,7 @@ public class Category implements Serializable{
 	private String name;
 	
 	private Set<Product> products = new HashSet<>();
+	
 	public Category() {}
 	
 	public Category(Long id, String name) {
