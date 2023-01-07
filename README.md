@@ -71,4 +71,12 @@ Projeto . Desenvolver...
 #### Listando Category por Id
 ![image](https://user-images.githubusercontent.com/76778401/210474404-c103577b-01c6-4b7d-9a49-debfbc51729d.png)
 
+### Product
+
+#### Listagem Product
+![image](https://user-images.githubusercontent.com/76778401/211160630-0fd1078e-e34c-4359-a1d1-49823f5cd4b0.png)
+
+#### Listar Product por id
+![image](https://user-images.githubusercontent.com/76778401/211160617-227f7935-50cc-4dad-8dc1-bc2bafe4c4bf.png)
+
 
