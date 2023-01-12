@@ -7,6 +7,8 @@ public class Payment {
 	private Long id;
 	private Instant moment;
 	
+	@OneToOne
+	@MapsId
 	private Order order;
 
 }
