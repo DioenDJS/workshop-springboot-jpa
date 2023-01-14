@@ -48,6 +48,9 @@ Projeto . Desenvolver...
 
 ### User
 
+#### Criar Usuário
+![image](https://user-images.githubusercontent.com/76778401/212481537-2aba2480-004c-4ece-adcd-529de3e85d18.png)
+
 #### Listagem de usuários
 ![image](https://user-images.githubusercontent.com/76778401/210287244-c557a85c-96cd-4c33-b1ba-d577f3d22ec7.png)
 
