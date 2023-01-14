@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.dioendweb.dioendweb.entities.User;
 import com.dioendweb.dioendweb.repositories.UserRepository;
+import com.dioendweb.dioendweb.services.exceptions.ResourceNotFoundException;
 
 
 @Service
@@ -26,7 +27,7 @@ public class UserService {
 	
 		Optional<User> obj = repository.findById(id);
 		
-		return obj.get();
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 	}
 	
 	public User insert(User obj){
