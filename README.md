@@ -57,6 +57,8 @@ Projeto . Desenvolver...
 #### Listagem de usuários por Id
 ![image](https://user-images.githubusercontent.com/76778401/210287227-2a07b6a1-b929-4e04-9d8c-176417828b9c.png)
 
+#### Deleta Usuário
+![image](https://user-images.githubusercontent.com/76778401/212483423-47ba8522-4998-4a59-b205-55f651f4cc20.png)
 
 ### Order
 
