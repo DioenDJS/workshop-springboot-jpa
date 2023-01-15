@@ -43,6 +43,8 @@ Projeto . Desenvolver...
     <scope>runtime</scope>
 </dependency>
 ```
+## Importe Insomnia
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Spring%20Boot%20-%20JPA&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDioenDJS%2Fworkshop-springboot-jpa%2Fmain%2FInsomnia.json)
 
 ## Methods HTTP no Insomnia:
 
